@@ -5,7 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Stats Preview Card Component</title>
   </head>
-  <body></body>
+  <body class="bg-veryDarkBlue">
+    <section
+      id="stats-component"
+      class="flex flex-col-reverse bg-desaturatedBlue mx-7 my-12 rounded-xl justify-between sm:flex-row sm:mx-80 sm:my-44"
+    >
+      <div class="flex flex-col mx-2 sm:mx-12">
+        <h1
+          class="text-white font-bold font-inter mx-11 text-center text-md mt-6 sm:text-3xl sm:text-left sm:my-10"
+        >
+          Get <a href="#" class="text-softViolet">insights</a> that help your
+          business grow.
+        </h1>
+        <p
+          class="text-center text-slightlyTransparentWhite mx-3 my-6 text-sm sm:text-left sm:-mt-2 sm:mb-10"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div
+          class="flex flex-col text-center sm:flex-row sm:justify-between sm:mx-12"
+        >
+          <div class="mb-5">
+            <h1 class="text-white font-lexendDeca font-extrabold text-xl">
+              10k+
+            </h1>
+            <h2 class="text-sm text-tranparentWhite -mt-1">COMPANIES</h2>
+          </div>
+          <div class="mb-5">
+            <h1 class="text-white font-lexendDeca font-extrabold text-xl">
+              314
+            </h1>
+            <h2 class="text-sm text-tranparentWhite -mt-1">TEMPLATES</h2>
+          </div>
+          <div class="mb-5">
+            <h1 class="text-white font-lexendDeca font-extrabold text-xl">
+              12M+
+            </h1>
+            <h2 class="text-sm text-tranparentWhite -mt-1">QUERIES</h2>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="hidden sm:block rounded-r-xl"
+        style="
+          background-image: url(./images/image-header-desktop.jpg);
+          width: 45rem;
+        "
+      >
+        <div
+          class="bg-softViolet opacity-50 rounded-r-xl text-transparent h-96"
+        ></div>
+      </div>
+
+      <div
+        class="bg-desktopImage rounded-t-xl sm:hidden"
+        style="background-image: url(./images/image-header-desktop.jpg)"
+      >
+        <div
+          class="bg-softViolet opacity-50 rounded-t-xl text-transparent h-96"
+        ></div>
+      </div>
+    </section>
+  </body>
 </html>
